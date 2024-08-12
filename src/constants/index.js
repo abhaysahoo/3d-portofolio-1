@@ -18,12 +18,15 @@ import {
     pricewise,
     react,
     redux,
+    java,   
     sass,
     snapgram,
     summiz,
     tailwindcss,
     threads,
     dalle,
+    ticket,
+    stars,
     tshirt,
     book,
     anime,
@@ -70,7 +73,7 @@ export const skills = [
     },
     {
         imageUrl: motion,
-        name: "Motion",
+        name: "Framer Motion",
         type: "Animation",
     },
     // {
@@ -93,11 +96,11 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: redux,
-    //     name: "Redux",
-    //     type: "State Management",
-    // },
+    {
+        imageUrl: redux,
+        name: "Redux",
+        type: "State Management",
+    },
     // {
     //     imageUrl: sass,
     //     name: "Sass",
@@ -117,6 +120,11 @@ export const skills = [
         imageUrl: cplusplus,
         name: "C++",
         type: "Backend",
+    },
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
     }
 ];
 
@@ -128,8 +136,9 @@ export const experiences = [
         iconBg: "#F1F5F9",
         date: "July 2022 - Dec 2022",
         points: [
-            "Designed low-level functionality of an HTTP-based API and implemented it end-to-end using Java, Typescript, & AWS services",
-            "Accelerated team productivity by driving down average code review time from 5 days to 3 days through consistent and thorough reviews",
+            "Designed low-level functionality of a Microservice and developed it end-to-end with Java, Typescript, Node, AWS Lambda, AWS API gateway, etc",
+            "Authored detailed Technical Documentation for a Microservice, improving developer onboarding time from 10 days to 7 days",
+            "Accelerated team productivity by driving down average code review time from 5 days to 3 days through consistent initiatives"
         ],
     },
     {
@@ -139,8 +148,8 @@ export const experiences = [
         iconBg: "#F1F5F9",
         date: "Jan 2022 - Jun 2022",
         points: [
-            "Revamped a microservice, enabling migration of client-service communication from traditional prod to AWS environment",
-            "Championed a Proof of Concept for automating Integration Test Package execution in the Product Development Pipeline",
+            "Migrated critical Microservices from on-premise prod servers to AWS, achieving project completion one month ahead of deadline",
+            "Delivered a Proof of Concept for automating Integration Tests in the Product Development Pipeline",
         ],
     },
     {
@@ -150,8 +159,8 @@ export const experiences = [
         iconBg: "#F0FDFA",
         date: "Jun 2021 - Nov 2021",
         points: [
-            "Coded Verilog and System Verilog test case files for API testing, identifying 6 functional bugs",
-            "Implemented code modifications in existing C++ files, aiding the team in resolving critical API bugs",
+            "Wrote Verilog and System Verilog test cases for API testing, identifying 6 functional bugs",
+            "Implemented code modifications in existing C++ files, helping the team in resolving 3 critical bugs",
         ],
     },
     {
@@ -161,18 +170,18 @@ export const experiences = [
         iconBg: "#fff",
         date: "Apr 2020 - June 2020",
         points: [
-            "Engineered interactive and responsive web pages",
-            "Troubleshooted frontend UI bugs",
+            "Coded interactive & responsive web pages",
+            "Resolved frontend UI bugs",
         ],
     },
 ];
 
 export const socialLinks = [
-    {
-        name: 'X',
-        iconUrl: twitter,
-        link: 'https://twitter.com/icodefrfun',
-    },
+    // {
+    //     name: 'X',
+    //     iconUrl: twitter,
+    //     link: 'https://twitter.com/icodefrfun',
+    // },
     {
         name: 'GitHub',
         iconUrl: github,
@@ -187,10 +196,26 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: stars,
+        theme: 'btn-back-blue',
+        name: 'Metaverse',
+        description: 'A modern landing page with eye-catching animations using Framer Motion.',
+        github: 'https://github.com/abhaysahoo/metaverse',
+        weblink: 'https://metaverse-absahoo.vercel.app/',
+    },
+    {
+        iconUrl: ticket,
+        theme: 'btn-back-orange',
+        name: 'Evently',
+        description: 'A Next.js application to create, manage or book an event along with the option to collect payments.',
+        github: 'https://github.com/abhaysahoo/evently',
+        weblink: 'https://evently-absahoo.vercel.app/',
+    },
+    {
         iconUrl: dalle,
         theme: 'btn-back-black',
         name: 'Dalle Clone',
-        description: 'Developed a clone of Dalle image generation application using MERN stack along with Tailwind CSS and Cloudinary to store the images in the cloud',
+        description: 'Developed a clone of Dalle image generation application using MERN stack along with Tailwind CSS and Cloudinary to store the images in the cloud.',
         github: 'https://github.com/abhaysahoo/dalle-clone',
         weblink: 'https://dalle-delta-clone.netlify.app/',
     },

@@ -14,6 +14,7 @@ import redux from './redux.svg'
 import sass from './sass.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
+import java from './java.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
 import car from './car.svg'
@@ -22,6 +23,8 @@ import pricewise from './pricewise.svg'
 import snapgram from './snapgram.svg'
 import summiz from './summiz.svg'
 import threads from './threads.svg'
+import ticket from './ticket.svg'
+import stars from './stars.svg'
 import dalle from './dalle.svg'
 import tshirt from './t-shirt.svg'
 import book from './book.svg'
@@ -48,6 +51,7 @@ export {
     nodejs,
     react,
     redux,
+    java,
     sass,
     tailwindcss,
     typescript,
@@ -59,6 +63,8 @@ export {
     snapgram,
     summiz,
     threads,
+    ticket,
+    stars,
     dalle,
     tshirt,
     book,
