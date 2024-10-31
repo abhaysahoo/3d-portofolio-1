@@ -5,6 +5,7 @@ import starbucks from './starbucks.png'
 import tesla from './tesla.png'
 import logo from './logo.svg'
 import amazon from './amazon.png'
+import answersai from './answersai.png'
 import siemens from './siemens.png'
 import olcademy from './olcademy.png'
 import github from './github.png'
@@ -18,6 +19,7 @@ export {
     starbucks,
     tesla,
     logo,
+    answersai,
     amazon,
     siemens,
     olcademy,

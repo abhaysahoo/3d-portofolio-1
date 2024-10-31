@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, amazon, siemens, olcademy, twitter } from "../assets/images";
+import { meta, shopify, starbucks, tesla, amazon, answersai, siemens, olcademy, twitter } from "../assets/images";
 import {
     car,
     contact,
@@ -32,7 +32,8 @@ import {
     anime,
     quiz,
     typescript,
-    cplusplus
+    cplusplus,
+    ai
 } from "../assets/icons";
 
 export const skills = [
@@ -131,6 +132,16 @@ export const skills = [
 export const experiences = [
     {
         title: "Software Development Engineer",
+        company_name: "AnswersAi.com",
+        icon: answersai,
+        iconBg: "#FFFFFF",
+        date: "Oct 2024 - Present",
+        points: [
+            "Working on B2B 'ProfPilot' project which is like a Google Classroom with fined-tuned AI assistants & rich features",
+        ],
+    },
+    {
+        title: "Software Development Engineer",
         company_name: "Amazon.com",
         icon: amazon,
         iconBg: "#F1F5F9",
@@ -195,6 +206,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: ai,
+        theme: 'btn-back-black',
+        name: 'CheckMate',
+        description: 'Real-time AI-Powered Plagiarism Detection for academic integrity and originality',
+        github: 'https://github.com/abhaysahoo/Abhay-Sahoo-AIPlagiarismDetector',
+        weblink: 'https://ai-checkmate.vercel.app/',
+    },
     {
         iconUrl: stars,
         theme: 'btn-back-blue',

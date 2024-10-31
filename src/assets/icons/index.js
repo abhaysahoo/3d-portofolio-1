@@ -35,6 +35,7 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import cplusplus from './cplusplus.svg'
+import ai from './ai.svg'
 
 
 export {
@@ -74,5 +75,6 @@ export {
     contact,
     soundon,
     soundoff,
-    cplusplus
+    cplusplus,
+    ai,
 }
